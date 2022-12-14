@@ -69,3 +69,17 @@ body {
 	transform: translateY(-50%);
 	font-size: 20px;
 }
+
+/* Header */
+
+.header {
+	background-color: antiquewhite;
+}
+.header ul {
+	display: flex;
+	justify-content: center;
+}
+.header ul li {
+	list-style: none;
+	padding: 10px 30px;
+}
