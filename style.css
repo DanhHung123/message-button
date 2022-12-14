@@ -50,3 +50,22 @@ body {
 	right: 20px;
 	cursor: pointer;
 }
+
+/* Search */
+.search {
+	margin: 100px;
+	position: relative;
+	display: inline-block;
+}
+.search input {
+	padding: 10px 20px;
+}
+.search button {
+	border: none;
+	background-color: transparent;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
